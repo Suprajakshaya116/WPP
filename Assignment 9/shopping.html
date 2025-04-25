@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snapmart</title>
+    <style>
+        /* Flexbox container for title and search bar */
+        .topnav {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: rgb(39, 134, 166);
+            color: aliceblue;
+            padding: 10px 20px;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        /* Title styling */
+        .topnav h1 {
+            background-color: aliceblue;
+            margin: 0;
+            font-size: 28px;
+             color: rgb(8, 85, 111);
+             border-radius: 5px;
+             padding:10px;
+             font-style:inheritr;
+        }
+        .topnav a {
+            color: aliceblue;
+            text-decoration: none;
+            margin: 0;
+            font-size: 20px;
+        }
+        .topnav a:hover{
+           border-color: black;
+          /* background-color: azure; */
+        }
+
+        /* Search bar styling */
+        .topnav input[type="search"] {
+            padding: 10px;
+            max-width: 400px;
+            width: 100%; /* Adjust the width as needed */
+            text-align: center;
+            border: 1px solid #ccc;
+            border-radius:5px;
+            font-family: sans-serif;
+            font-size: 16px;
+        }
+
+        /* Navbar links styling */
+        .topnav-links {
+            background-color: rgb(25, 66, 105);
+            overflow: hidden;
+        }
+
+        .topnav-links a {
+            float: left;
+            padding: 14px 16px;
+            color: rgb(223, 227, 232);
+            text-align: center;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+        .topnav-links a:hover {
+            color: rgb(77, 42, 165);
+            background-color: antiquewhite;
+        }
+        .container {
+      display: flex;
+      justify-content: center;
+      gap:70px;
+      margin: 20px 0;
+    }
+
+        .box {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  outline: rgb(84, 82, 82);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease;
+    
+}
+    .box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+     }
+
+    .box-text {
+      padding:10px;
+      font-size: 20px;
+      color: black;
+      text-align: center;
+    }
+    .box:hover {
+            transform: scale(1.07); /* Zooms in by 20% */
+        }
+      
+        footer {
+      background-color: rgb(8, 85, 111);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 20px;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+    </style>
+</head>
+<body>
+    <!-- Top navigation with title and search bar -->
+    <div class="topnav">
+        <h1>Snapmart</h1>
+        <a href="1.html">Choose your location</a>
+        <input type="search" id="search" name="search" placeholder="Find your favorite items here...">
+        
+        <a href="1.html">Hello! Sign in</a>
+        <a href="1.html">Returns & Orders</a>
+        <a href="1.html">Cart</a>
+     </div>
+
+    <!-- Navigation links -->
+    <div class="topnav-links">
+        <a href="1.html">New Releases</a>
+        <a href="1.html">Today's Deals</a>
+        <a href="1.html">Books</a>
+        <a href="1.html">Gift Cards & Top Up</a>
+        <a href="1.html">Home & Garden</a>
+        <a href="1.html">Electronics</a>
+        <a href="1.html">Toys and Games</a>
+        <a href="1.html">Fashion</a>
+        <a href="1.html">Beauty</a>
+        <a href="1.html">PC</a>
+        <a href="1.html">Health & Personal Care</a>
+        <a href="1.html">Pet Supplies</a>
+    </div>
+    <img src="fash.jpg" alt="fashion" style="width: 100%;">
+    <div class="container">
+        <div class="box">
+          <a href="1.html"> <img src="https://img.freepik.com/premium-photo/smiling-girl-clothing-shop-choosing_23-2147669918.jpg?w=2000"></a>
+          <div class="box-text">Clothing</div>
+        </div>
+        <div class="box">
+          <a href="2.html"> <img src="https://www.rd.com/wp-content/uploads/2017/09/00_groceryshopping_This-is-the-Absolute-Worst-Day-to-Shop-for-Your-Thanksgiving-Groceries_299082896_wavebreakmedia.jpg"></a>
+          <div class="box-text">Groceries</div>
+        </div>
+    
+        <div class="box">
+         <a href="3.html">  <img src= "https://5.imimg.com/data5/LE/QK/KP/IOS-76296248/product-jpeg-500x500.png"></a>
+          <div class="box-text">Electronics</div>
+        </div>
+        <div class="box">
+            <a href="1.html"><img src="https://images-eu.ssl-images-amazon.com/images/G/02/AISExports_UK_GW/Desktop/AIS_GW_DESKTOP_CATCARD_PETS_378x304._SY304_CB642486966_.jpg"></a>
+            <div class="box-text">Pet Care</div>
+          </div>
+        </div>
+         
+        <div class="container">
+        <div class="box">
+          <a href="2.html"><img src="https://th.bing.com/th/id/OIP.6mkwUSaDgn-FkJoLOqqK0wHaE7?rs=1&pid=ImgDetMain"></a>
+          <div class="box-text">Beauty products</div>
+        </div>
+        <div class="box">
+          <a href="1.html"><img src="https://images.pexels.com/photos/343720/pexels-photo-343720.jpeg?cs=srgb&dl=pexels-asim-razan-343720.jpg&fm=jpg"></a>
+          <div class="box-text">Goggles</div>
+        </div>
+        <div class="box">
+          <a href="1.html"><img src="https://images.hindustantimes.com/img/2022/12/22/1600x900/istockphoto-1279108197-170667a_1671687926903_1671687937504_1671687937504.jpg"></a>
+          <div class="box-text">Footwear</div> 
+        </div>
+        <div class="box">
+            <a href="1.html"><img src="https://images-eu.ssl-images-amazon.com/images/G/02/AISExports_UK_GW/Desktop/AIS_GW_DESKTOP_CATCARD_KITCHEN_378x304._SY304_CB642486961_.jpg"></a>
+            <div class="box-text">Kitchen Essentials</div>
+          </div>
+        </div>
+        <footer>
+          © 2025  SnapMart. All Rights Reserved.
+        </footer>
+</body>
+</html>
+       
