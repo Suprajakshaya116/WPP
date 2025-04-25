@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tillu's Tastes</title>
+  <style>
+ 
+    body {
+      margin: 0;
+    }
+
+     
+    .hero {
+      background-image: url("tt1.jpg") ;
+      background-color:white;
+      background-repeat: no-repeat;
+      font-style: italic;
+      text-align: center;
+      padding: 70px;
+      color: rgb(229, 230, 232);
+      margin: 0;
+      background-size: 100% auto;
+      height: 100%;
+    }
+
+    .hero .buttons {
+      text-align: right;
+       margin: 10px;
+    }
+
+    .hero button {
+      color: rgb(100, 9, 80);
+      font-size: 20px;
+      border-radius: 10px;
+      border: 1px solid rgb(100, 9, 80);
+      padding: 10px 20px;
+      background-color:white;
+      cursor: pointer;
+      text-align: right;
+    }
+    .button {
+  transition-duration: 0.4s;
+}
+
+    .button:hover {
+            background-color:rgb(100, 9, 80);/* Color on hover */
+            color: white; 
+        }
+
+
+    .hero h1 {
+     font-style: italic;
+      font-size: 100px;
+      margin: 0;
+      color: white
+    }
+
+    .hero h4 {
+      font-size: 30px;
+      margin: 10px 0 20px;
+      color:palevioletred;
+    }
+
+    .hero input[type="search"] {
+      padding: 10px;
+      width: 80%;
+      max-width: 400px;
+      border-radius: 25px;
+      border: 1px solid #ccc;
+      font-family:sans-serif;
+      text-align: center;
+      background-color:white;
+    }
+
+    /* Box Styles */
+    .container {
+      display: flex;
+      justify-content: center;
+      gap:70px;
+      margin: 20px 0;
+    }
+
+    .box {
+  width: 300px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  border-radius: 10px;
+  outline: rgb(84, 82, 82);
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s ease;
+    
+}
+    .box img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+     }
+
+    .box-text {
+      padding:10px;
+      font-size: 20px;
+      color: black;
+      text-align: center;
+    }
+    .box:hover {
+            transform: scale(1.07); /* Zooms in by 20% */
+        }
+        footer {
+      background-color: rgb(100, 9, 80);
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      font-family:Arial, Helvetica, sans-serif;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <div class="buttons">
+      <button type="button" class="button">Login</button>
+      <button type="button" class="button">Signup</button>
+    </div>
+    <h1>Tillu's Tastes</h1>
+    <h4>"Savoring every bite of happiness"</h4>
+    <input type="search" id="search" name="search" placeholder="Search your cravings...">
+  </div>
+  <br><br><br>
+  <div class="container">
+    <div class="box">
+      <a href="1.html"> <img src="order food.jpeg" alt="Food Image" style="border-radius:10px;width: 300px;"></a>
+      <div class="box-text">Biryani</div>
+    </div>
+    <div class="box">
+      <a href="2.html"> <img src=https://1.bp.blogspot.com/-D39hkoGoz0g/VIUgpb-Pw1I/AAAAAAAAE38/TgSSHTCEiTo/s1600/broccoli-lollipop-recipe-5.JPG alt="Restaurant Image " style="border-radius:10px;width: 300px;"></a>
+      <div class="box-text">starters</div>
+    </div>
+
+    <div class="box">
+     <a href="3.html">  <img src=https://wallpaperaccess.com/full/2727905.jpg style="border-radius:10px;width: 300px;"></a>
+      <div class="box-text">Drinks</div>
+    </div>
+    </div>
+     
+    <div class="container">
+    <div class="box">
+      <a href="2.html"><img src=https://images.pexels.com/photos/1503281/pexels-photo-1503281.jpeg?cs alt="Nightlife Image" style="border-radius:10px;width: 300px;"></a>
+      <div class="box-text">salads</div>
+    </div>
+    <div class="box">
+      <a href="1.html"><img src=https://images.pexels.com/photos/1028714/pexels-photo-1028714.jpeg?cs alt="Nightlife Image" style="border-radius:10px;width: 300px;"></a>
+      <div class="box-text">Desserts</div>
+    </div>
+
+   </div>
+   <footer>
+    © 2025 Tillu's Tastes. All Rights Reserved.
+  </footer>
+
+</body>
+</html>
